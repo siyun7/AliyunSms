@@ -1,8 +1,8 @@
 <?php
 
-namespace Aliyun\Core;
+namespace L57t7q\AliyunSmsSdk;
 
-use Aliyun\Core\Regions\EndpointConfig;
+use L57t7q\AliyunSmsSdk\Regions\EndpointConfig;
 
 //config http proxy
 define('ENABLE_HTTP_PROXY', FALSE);

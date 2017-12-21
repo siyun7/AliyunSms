@@ -1,7 +1,7 @@
 <?php
 
-namespace Aliyun\Core\Http;
-use Aliyun\Core\Exception\ClientException;
+namespace L57t7q\AliyunSmsSdk\Http;
+use L57t7q\AliyunSmsSdk\Exception\ClientException;
 
 class HttpHelper
 {

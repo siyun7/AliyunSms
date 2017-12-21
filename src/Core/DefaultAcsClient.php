@@ -1,10 +1,10 @@
 <?php
 
-namespace Aliyun\Core;
-use Aliyun\Core\Exception\ClientException;
-use Aliyun\Core\Exception\ServerException;
-use Aliyun\Core\Regions\EndpointProvider;
-use Aliyun\Core\Http\HttpHelper;
+namespace L57t7q\AliyunSmsSdk;
+use L57t7q\AliyunSmsSdk\Exception\ClientException;
+use L57t7q\AliyunSmsSdk\Exception\ServerException;
+use L57t7q\AliyunSmsSdk\Regions\EndpointProvider;
+use L57t7q\AliyunSmsSdk\Http\HttpHelper;
 
 class DefaultAcsClient implements IAcsClient 
 {    

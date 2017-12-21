@@ -1,6 +1,6 @@
 <?php
 
-namespace Aliyun\Core\Auth;
+namespace L57t7q\AliyunSmsSdk\Auth;
 
 class Credential
 {

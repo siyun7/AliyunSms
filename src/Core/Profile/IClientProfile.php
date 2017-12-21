@@ -1,6 +1,6 @@
 <?php
 
-namespace Aliyun\Core\Profile;
+namespace L57t7q\AliyunSmsSdk\Profile;
 
 interface IClientProfile
 {

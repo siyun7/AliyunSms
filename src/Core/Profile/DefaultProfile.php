@@ -1,12 +1,12 @@
 <?php
 
-namespace Aliyun\Core\Profile;
+namespace L57t7q\AliyunSmsSdk\Profile;
 
-use Aliyun\Core\Auth\Credential;
-use Aliyun\Core\Auth\ShaHmac1Signer;
-use Aliyun\Core\Regions\ProductDomain;
-use Aliyun\Core\Regions\Endpoint;
-use Aliyun\Core\Regions\EndpointProvider;
+use L57t7q\AliyunSmsSdk\Auth\Credential;
+use L57t7q\AliyunSmsSdk\Auth\ShaHmac1Signer;
+use L57t7q\AliyunSmsSdk\Regions\ProductDomain;
+use L57t7q\AliyunSmsSdk\Regions\Endpoint;
+use L57t7q\AliyunSmsSdk\Regions\EndpointProvider;
 
 class DefaultProfile implements IClientProfile
 {

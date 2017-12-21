@@ -1,8 +1,8 @@
 <?php
 
-namespace Aliyun\Api\Sms\Request\V20170525;
+namespace L57t7q\Api\Sms\Request\V20170525;
 
-use Aliyun\Core\RpcAcsRequest;
+use L57t7q\AliyunSmsSdk\RpcAcsRequest;
 
 class SendSmsRequest extends RpcAcsRequest
 {

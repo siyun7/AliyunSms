@@ -1,6 +1,6 @@
 <?php
 
-namespace Aliyun\Core\Http;
+namespace L57t7q\AliyunSmsSdk\Http;
 
 class HttpResponse
 {

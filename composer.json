@@ -1,5 +1,5 @@
 {
-    "name": "l57t7q/aliyun-dysms-php-sdk",
+    "name": "l57t7q/aliyun-sms",
 	"description": "Aliyun SMS SDK for PHP",
     "keywords": ["aliyun", "SMS", "sdk"],
 	"type": "library",
@@ -13,7 +13,7 @@
     "autoload": {
         "psr-4": {
             "L57t7q\\AliyunSmsSdk\\": "src/aliyun-php-sdk-core/",
-            "L57t7q\\Dysmsapi\\Request\\V20170525\\": "src/Api/Sms/Request/V20170525",
+            "L57t7q\\Api\\Sms\\Request\\V20170525\\": "src/Api/Sms/Request/V20170525",
 			"L57t7q\\AliyunSms\\" : "src/"
         }
     },

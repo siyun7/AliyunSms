@@ -1,6 +1,6 @@
 <?php
 
-namespace Aliyun\Core\Regions;
+namespace L57t7q\AliyunSmsSdk\Regions;
 
 class ProductDomain
 {

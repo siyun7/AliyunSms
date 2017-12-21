@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Aliyun\Core\Exception;
+namespace L57t7q\AliyunSmsSdk\Exception;
 
 class ServerException extends ClientException
 {
