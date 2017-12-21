@@ -1,0 +1,24 @@
+{
+    "name": "l57t7q/aliyun-dysms-php-sdk",
+	"description": "Aliyun SMS SDK for PHP",
+    "keywords": ["aliyun", "SMS", "sdk"],
+	"type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "l57t7q",
+            "email": "i@ltq.im"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "L57t7q\\AliyunSmsSdk\\": "src/aliyun-php-sdk-core/",
+            "L57t7q\\Dysmsapi\\Request\\V20170525\\": "src/Api/Sms/Request/V20170525",
+			"L57t7q\\AliyunSms\\" : "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">5.3"
+	}
+}
