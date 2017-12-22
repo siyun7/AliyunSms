@@ -34,8 +34,7 @@ class AliyunSms
         $sendRequest->setTemplateCode($templateCode);
         if ($data) $sendRequest->setTemplateParam(json_encode($data), JSON_UNESCAPED_UNICODE);
         if ($outId) $sendRequest->setOutId($outId);
-        $acsResponse = static::getAcsClient($config);
-        $acsResponse->getAcsResponse($sendRequest);
+        $acsResponse = static::getAcsClient($config)->getAcsResponse($sendRequest);
         return $acsResponse;
 
     }
